@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Second Project Page</title>
+    <link rel="stylesheet" href="../styles/pineda.css">
+  </head>
+  <body>
+    <p><a href="./michaelp_index.html">main page</a></p>
+    <h1 id="main_header">My second project page</h1>
+    <h2> Project Description</h2>
+
+   <div>
+     <h3>1/23/22-1/28/22</h3>
+     <p>started some of my new project, found out the file I am trying to extract data from is a zip file, so I unzipped it and found three more files to extract data from. Hopefully will figure out how by the end of next week.</p>
+   </div>
+    
+   <div>
+     <h3>1/31/22-2/4/22</h3>
+     <p>One of the three files is a json file containing metadata. Out of the other two files, I've found out that at least some of the data seems to be utf-8 encoded, but I haven't found a way to reliably extract the data yet.</p>
+   </div>
+
+  <div>
+     <h3>2/7/22-2/11/22</h3>
+     <p>I may have figured out a way to semi-reliably extract player names and their clan/guild from the replay file. I've only tested it on three files, from two different
+     client versions though, so I'm still not sure if it will work for other files.</p>
+   </div>
+
+   <div>
+     <h3>2/14/22-2/18/22</h3>
+     <p>Started trying to figure out the rest of the data in the file (player movement, chat messages, shots, etc). This may take some time to decipher.</p>
+   </div>
+  <div>
+     <h3>2/21/22-2/25/22</h3>
+     <p>Had trouble with some other things this week, so I was unable to get much done. Hopefully will be able to do more next week.</p>
+   </div>
+   <div>
+     <h3>2/28/22-3/4/22</h3>
+     <p>Struggled with trying to figure out reliable patterns for data extraction this week</p>
+   </div>
+    <div>
+     <h3>3/7/22-3/11/22</h3>
+     <p>Still stuck, I might leave the first part for now and try to continue deciphering play movements/positions.</p>
+   </div>
+    <div>
+     <h3>3/27/22-4/1/22</h3>
+     <p>Finally found a pattern that worked to get each player name, it's worked for about 20 distinct replay files so far, and I'm hoping it will work for all.</p>
+   </div>
+    <div>
+     <h3>4/4/22-4/1/22</h3>
+     <p>Couldn't get too much done this week, but I did manage to refine how I extract player names/characteristics and clean up my code.</p>
+   </div>
+    <div>
+     <h3>4/11/22-4/15/22</h3>
+     <p>Continued to try figuring out how to extract player movements/positions from a replay. Also had the idea to run the game through a debugger, and try to figure it out like that. </p>
+   </div>
+    <div>
+     <h3>4/18/22-4/22/22</h3>
+     <p>Found some information that will be useful for my project, and may have figured out a way to find the position of a tank from replays.</p>
+   </div>
+    <div>
+     <h3>4/25/22-4/29/22</h3>
+     <p>Trying to figure out how to extract the section of the file that contains information about the actual replay (not just metadata like player names), thinking about using Wireshark or another packet analyzer since the data I am trying to extract is seemingly just packets sent during games that are logged to the replay file</p>
+   </div>
+    <div>
+     <h3>5/2/22-5/6/22</h3>
+     <p>Ended up not needing Wireshark to extract the data I want, now that I have been able to figure out how to extract the data I want I'm now trying to render the game models (maps and tanks) so that I can visualize the data</p>
+   </div>
+    <div>
+     <h3>5/9/22/-5/13/22</h3>
+     <p>Got a bit distracted with modding the game this week. Might not try to get models from the game, instead creating some simpler models due to time constraints.</p>
+   </div>
+    <div>
+     <h3>5/16/22-5/20/22</h3>
+     <p>Ended up working on something else (coding related) this week, I was thinking about presenting this instead of presenting my replay project, since I didn't really get where I wanted to with my replay project yet.</p>
+    <div>
+    <h3>5/30/22-6/3/22</h3>
+     <p>Finished my alternate project (as in it kind of works), probably won't get much more done with it by the end of school, but I'll work on optimizing and improving it.</p>
+   </div>
+   </div>
+  </body>
+</html>

@@ -1,0 +1,60 @@
+ {
+  font-family: 'Georgia', serif;
+  /*homage jacob*/
+}
+
+h1 {
+  font-size: 3em; /* info about CSS units here:  https://auth.geeksforgeeks.org/roadBlock.php */
+  color: white;
+}
+
+h2 {
+  font-size: 1em;
+  color: "00008b";
+}
+
+h3 {
+  font-size: .5em;
+}
+
+ol {
+  color: red;
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+canvas {
+    padding: 0;
+    margin: auto;
+    display: block;
+}
+
+
+
+#ctr{ /*# means id--find the elements in the html file with this id*/
+  text-align: center;
+}
+
+#gitimage{
+  width:19.3em;
+  height:28em;
+}
+
+#box {
+  width: 50em;
+  height: 8em;
+  background-color:  palegreen;
+  padding:  8;
+  border-style: solid;
+  border-color: orangered;
+  border-width:  8px ;
+  text-align: center;
+}
+
