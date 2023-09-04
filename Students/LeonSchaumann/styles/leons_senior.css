@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons+Outlined');
+
+:root {
+    --text: #e7e9ee;
+    --background: #0d0e12;
+    --primary: #a09ab6;
+    --secondary: #261e29;
+    --accent: #91779c;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+    margin: 0;
+    padding: 0;
+
+    background-color: var(--background);
+
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+nav {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+
+    width: 90%;
+    height: 100px;
+
+    left: 50%;
+    transform: translateX(-50%);
+
+    border-bottom: 1px solid var(--accent);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.left-nav {
+    position: relative;
+    margin-right: auto;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+    width: auto;
+    height: 100%;
+}
+
+.right-nav {
+    position: relative;
+    margin-left: auto;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+    width: auto;
+    height: 100%;
+}
+
+.nav-item {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+}
+
+.page-title {
+    color: var(--primary);
+    margin: 0;
+}
+
+.nav-link {
+    color: var(--primary);
+    transition-duration: 0.25s;
+}
+
+.nav-link:hover {
+    color: var(--accent);
+}
+
+.material-icons-outlined {
+    font-size: 30px !important;
+}
